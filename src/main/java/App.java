@@ -1,10 +1,12 @@
-/**
- * Created by Admin on 2/12/2017.
- */
+import extractor.Extractor;
+import org.apache.log4j.BasicConfigurator;
+
+import java.io.IOException;
+
+
 public class App {
-    public static void main(String[] args) {
-        Extractor extractor = new Extractor();
-        String text = extractor.toText("C:\\Users\\Admin\\Desktop\\Recent\\Extraction.pdf");
-        System.out.println(text);
+    public static void main(String[] args) throws IOException {
+        String s = "_asdasda____";
+        System.out.println(s.matches("_+"));
     }
 }
