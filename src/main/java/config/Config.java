@@ -11,5 +11,7 @@ public class Config {
 
 	public static String RESOURCES_DIR = BASE_PATH + "/src/main/resources/dictionaries/";
 
-	public static String DATA_SCIENTIFIC_PATH = "/home/zeta/projects/spminer/test";
+	public static String DATA_SCIENTIFIC_PATH = "/home/zeta/projects/spminer/scientific";
+
+	public static String DATA_NON_SCIENTIFIC_PATH = "/home/zeta/projects/spminer/non-scientific";
 }

@@ -35,6 +35,13 @@
             <artifactId>slf4j-log4j12</artifactId>
             <version>1.7.5</version>
         </dependency>
+        <dependency>
+            <groupId>libsvm</groupId>
+            <artifactId>libsvm</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/resources/jar/libsvm.jar</systemPath>
+        </dependency>
 
     </dependencies>
 

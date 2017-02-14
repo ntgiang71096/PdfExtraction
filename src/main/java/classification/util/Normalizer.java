@@ -127,6 +127,13 @@ public class Normalizer {
         StringBuilder result = new StringBuilder();
         TextObject textObject = textObjectFactory.forText(input);
         Optional<LdLocale> lang = languageDetector.detect(textObject);
+
+        //If cannot detect language
+        if (!lang.isPresent())  {
+            System.out.println("Cannot detect language");
+            return null;
+        }
+
         String langCode = lang.get().toString();
         System.out.println("Detected language: " + langCode);
 
